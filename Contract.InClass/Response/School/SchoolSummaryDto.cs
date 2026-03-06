@@ -1,6 +1,6 @@
 ﻿using Contract.InClass.Common;
 
-namespace Contract.InClass.Response;
+namespace Contract.InClass.Response.School;
 
 public sealed record SchoolSummaryDto(
     Guid SchoolId,
