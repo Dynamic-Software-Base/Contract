@@ -13,10 +13,4 @@
     <RepositoryUrl>https://github.com/Dynamic-Software-Base/Contract.git</RepositoryUrl>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Pagination\" />
-    <Folder Include="Request\" />
-    <Folder Include="Response\" />
-  </ItemGroup>
-
 </Project>
