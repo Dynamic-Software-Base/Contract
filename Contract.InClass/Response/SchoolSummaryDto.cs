@@ -8,5 +8,7 @@ public sealed record SchoolSummaryDto(
     string? ArName,
     string? City,
     string? Description,
-    GradeLevelOfferingDto GradeLevelOffering
-);
+    GradeLevelOfferingDto GradeLevelOffering,
+    List<SchoolPictureResponse> Pictures);
+
+public record SchoolPictureResponse(Guid StoredFileId,string Url,bool IsMain);
