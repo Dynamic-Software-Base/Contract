@@ -1,6 +1,6 @@
 ﻿namespace Contract.InClass.Pagination;
 
-public class PagedRequest
+public record  PagedRequest
 {
     private const int MaxPageSize = 50;
     private int _pageSize = 10;
