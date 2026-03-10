@@ -8,8 +8,8 @@ public sealed record SchoolSummaryDto(
     string? ArName,
     string? City,
     string? Description,
-    double Latitude,
-    double Longitude,
+    double? Latitude,
+    double? Longitude,
     GradeLevelOfferingDto GradeLevelOffering,
     List<SchoolPictureResponse> Pictures);
 
