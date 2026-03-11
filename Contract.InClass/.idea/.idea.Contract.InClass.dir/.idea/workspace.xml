@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a999c047-e061-4219-b86a-1664cac91e83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Response/School/SchoolSummaryDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Response/School/SchoolSummaryDto.cs" afterDir="false" />
-    </list>
+    <list default="true" id="a999c047-e061-4219-b86a-1664cac91e83" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773144143646</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="make coordination null">
+      <option name="closed" value="true" />
+      <created>1773144468811</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773144468811</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +126,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add file resut response dto" />
     <MESSAGE value="verssion 1.0.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="verssion 1.0.9" />
+    <MESSAGE value="make coordination null" />
+    <option name="LAST_COMMIT_MESSAGE" value="make coordination null" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
