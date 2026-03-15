@@ -1,60 +1,38 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿namespace Contract.InClass.Request.School;
 
-namespace Contract.InClass.Request.School;
-
-
-public class CreateSchoolRequestDto
+public sealed class CreateSchoolRequestDto
 {
-    [Required]
-    [MinLength(5)]
-    public string Name { get; set; } = "";
-    public string? Ar_Name { get; set; }
-    public string? Description { get; set; }
+    public string  Name                 { get; set; } = string.Empty;
+    public string? Ar_Name              { get; set; }
+    public string? Description          { get; set; }
+    public Guid    EducationalSystemId  { get; set; }
+    public List<Guid> SupportedGradeIds { get; set; } = [];
 
-    public CreateSchoolAddressRequestDto Address { get; set; } = new();
-    public CreateSchoolContactInfo ContactInfo { get; set; } = new();
-    public CreateSchoolGradeLevelOffering GradeLevels { get; set; } = new();
-
-    public List<CreateSchoolPicturesDto> Pictures { get; set; } = new();
+    public CreateSchoolAddressDto    Address     { get; set; } = new();
+    public CreateSchoolContactDto    ContactInfo { get; set; } = new();
+    public List<CreateSchoolPicturesDto> Pictures { get; set; } = [];
 }
 
-public class CreateSchoolAddressRequestDto
+public sealed class CreateSchoolAddressDto
 {
-    public string StreetAddress { get; set; } = "";
-    public string? BuildingNumber { get; set; }
-    public string? ApartmentNumber { get; set; }
-    [Required]
-    public string City { get; set; } = "";
-    [Required]
-    public string Region { get; set; } = "";
-    [Required]
-    [RegularExpression(@"^\d{5}$", ErrorMessage = "Postal code must be exactly 5 digits.")]
-    public string PostalCode { get; set; } = "";
-    [Required]
-    public string Province { get; set; } = "";
+    public string  StreetAddress    { get; set; } = string.Empty;
+    public string? BuildingNumber   { get; set; }
+    public string? ApartmentNumber  { get; set; }
+    public string  City             { get; set; } = string.Empty;
+    public string  Province         { get; set; } = string.Empty;
+    public string  Region           { get; set; } = string.Empty;
+    public string  PostalCode       { get; set; } = string.Empty;
 }
 
-public class CreateSchoolContactInfo
+public sealed class CreateSchoolContactDto
 {
-    [EmailAddress]
-    public string Email { get; set; } = "";
-    [Required]
-    [RegularExpression(@"^\d{10}$", ErrorMessage = "Primary phone number must be exactly 10 digits.")]
-    public string PrimaryPhoneNumber { get; set; } = "";
-    [RegularExpression(@"^\d{10}$", ErrorMessage = "Primary phone number must be exactly 10 digits.")]
-    public string? SecondaryPhoneNumber { get; set; }
+    public string  Email                 { get; set; } = string.Empty;
+    public string  PrimaryPhoneNumber    { get; set; } = string.Empty;
+    public string? SecondaryPhoneNumber  { get; set; }
 }
 
-public class CreateSchoolGradeLevelOffering
-{
-    public bool HasPreSchool { get; set; }
-    public bool HasPrimarySchool { get; set; }
-    public bool HasMiddleSchool { get; set; }
-    public bool HasHighSchool { get; set; }
-}
-
-public class CreateSchoolPicturesDto
+public sealed class CreateSchoolPicturesDto
 {
     public Guid PictureId { get; set; }
-    public bool IsMain { get; set; }
+    public bool IsMain    { get; set; }
 }

@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="30" />
+    <option name="cachedIndexableFilesCount" value="34" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -85,6 +85,8 @@
       <workItem from="1772975815151" duration="2969000" />
       <workItem from="1773142886528" duration="425000" />
       <workItem from="1773232283348" duration="3278000" />
+      <workItem from="1773577264634" duration="360000" />
+      <workItem from="1773577936827" duration="1669000" />
     </task>
     <task id="LOCAL-00001" summary="add file resut response dto">
       <option name="closed" value="true" />
@@ -126,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773232479953</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="version 1.0.12 adding EducationSystem dtos">
+      <option name="closed" value="true" />
+      <created>1773577395709</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1773577395709</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +150,8 @@
     <MESSAGE value="verssion 1.0.9" />
     <MESSAGE value="make coordination null" />
     <MESSAGE value="add new release 1.0.11 and add GetSchoolQuery.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new release 1.0.11 and add GetSchoolQuery.cs" />
+    <MESSAGE value="version 1.0.12 adding EducationSystem dtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.0.12 adding EducationSystem dtos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
