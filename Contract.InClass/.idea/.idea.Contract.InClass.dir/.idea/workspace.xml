@@ -94,7 +94,7 @@
       <workItem from="1773595825030" duration="1320000" />
       <workItem from="1773664271386" duration="1281000" />
       <workItem from="1773926134203" duration="2663000" />
-      <workItem from="1774256173309" duration="5395000" />
+      <workItem from="1774256173309" duration="5738000" />
     </task>
     <task id="LOCAL-00001" summary="add file resut response dto">
       <option name="closed" value="true" />
@@ -176,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774275603952</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix schema">
+      <option name="closed" value="true" />
+      <created>1774278193806</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1774278193806</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +203,8 @@
     <MESSAGE value="add Schemas request Responses" />
     <MESSAGE value="Update version 1.0.13 -&gt; 1.0.14" />
     <MESSAGE value="add SchoolSwitcherDto&#10;version : 1.0.14 -&gt; 1.0.15" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SchoolSwitcherDto&#10;version : 1.0.14 -&gt; 1.0.15" />
+    <MESSAGE value="fix schema" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix schema" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

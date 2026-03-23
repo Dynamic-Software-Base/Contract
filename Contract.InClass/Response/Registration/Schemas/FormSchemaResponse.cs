@@ -7,7 +7,7 @@ public record FormSchemaResponse(
     int Version,
     bool IsCustomized,
     string BaseVersion,
-    List<FormFieldDto> Sections);
+    List<FormSectionDto> Sections); // was List<FormFieldDto>
 
 public record DisplayConditionDto(
     string Field,
