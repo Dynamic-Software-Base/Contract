@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a999c047-e061-4219-b86a-1664cac91e83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Request/Registration/Schemas/CustomizeFormSchemaRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Request/Registration/Schemas/GetFormSchemaRquest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Response/Registration/Schemas/FormSchemaResponse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Contract.InClass.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Contract.InClass.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="34" />
+    <option name="cachedIndexableFilesCount" value="36" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -36,8 +39,11 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Request/Registration/Schemas/CustomizeFormSchemaRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Request/Registration/Schemas/GetFormSchemaRquest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Request/School/GetSchoolQuery.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Response/Files/UploadFileResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Response/School/EducationalSystem/EducationalSystemResponse.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -87,6 +93,10 @@
       <workItem from="1773232283348" duration="3278000" />
       <workItem from="1773577264634" duration="360000" />
       <workItem from="1773577936827" duration="1669000" />
+      <workItem from="1773595825030" duration="1320000" />
+      <workItem from="1773664271386" duration="1281000" />
+      <workItem from="1773926134203" duration="2663000" />
+      <workItem from="1774256173309" duration="1574000" />
     </task>
     <task id="LOCAL-00001" summary="add file resut response dto">
       <option name="closed" value="true" />
@@ -136,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773577395709</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update 1.0.13">
+      <option name="closed" value="true" />
+      <created>1773595978668</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1773595978668</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +169,8 @@
     <MESSAGE value="make coordination null" />
     <MESSAGE value="add new release 1.0.11 and add GetSchoolQuery.cs" />
     <MESSAGE value="version 1.0.12 adding EducationSystem dtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1.0.12 adding EducationSystem dtos" />
+    <MESSAGE value="update 1.0.13" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 1.0.13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
