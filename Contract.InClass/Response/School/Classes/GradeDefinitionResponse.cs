@@ -7,7 +7,7 @@ public record GradeDefinitionDto(
     string NameAr,
     int SortOrder
     );
-public record SchoolSupportedGradesDto(
+public record GradeCycleDto(
     string Code,
     string NameFr,
     string NameAr,
@@ -16,4 +16,4 @@ public record SchoolSupportedGradesDto(
     List<GradeDefinitionDto> Grades);
     
 public record SchoolSupportedGradesResponse(
-    List<SchoolSupportedGradesDto> Cycles);
+    List<GradeCycleDto> Cycles);
