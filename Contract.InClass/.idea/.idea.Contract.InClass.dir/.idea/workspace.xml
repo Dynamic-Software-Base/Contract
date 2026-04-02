@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a999c047-e061-4219-b86a-1664cac91e83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Request/Registration/Session/CreateBatchRegistrationSessionsRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Request/Registration/Session/CreateBatchSessionsResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Request/School/Classes/CreateSchoolClassRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Request/Registration/Application/SubmitApplicationRequest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Contract.InClass.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Contract.InClass.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contract.InClass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Contract.InClass.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Request/School/Classes/CreateSchoolClassRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Request/School/Classes/CreateSchoolClassRequest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="44" />
+    <option name="cachedIndexableFilesCount" value="49" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -40,6 +38,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Request/Registration/Application/SubmitApplicationRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Request/Registration/Schemas/CustomizeFormSchemaRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Request/Registration/Schemas/GetFormSchemaRquest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Request/Registration/Session/CreateBatchSessionsResult.cs" root0="FORCE_HIGHLIGHTING" />
@@ -102,7 +101,10 @@
       <workItem from="1773926134203" duration="2663000" />
       <workItem from="1774256173309" duration="6457000" />
       <workItem from="1774346671642" duration="1883000" />
-      <workItem from="1774702869539" duration="2373000" />
+      <workItem from="1774702869539" duration="3422000" />
+      <workItem from="1774862527390" duration="1863000" />
+      <workItem from="1774959478398" duration="8000" />
+      <workItem from="1775043070895" duration="2052000" />
     </task>
     <task id="LOCAL-00001" summary="add file resut response dto">
       <option name="closed" value="true" />
@@ -200,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774278536281</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add rgeistration session and batch school creation">
+      <option name="closed" value="true" />
+      <created>1774707547651</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1774707547651</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +231,8 @@
     <MESSAGE value="add SchoolSwitcherDto&#10;version : 1.0.14 -&gt; 1.0.15" />
     <MESSAGE value="fix schema" />
     <MESSAGE value="update schema fetch" />
-    <option name="LAST_COMMIT_MESSAGE" value="update schema fetch" />
+    <MESSAGE value="add rgeistration session and batch school creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add rgeistration session and batch school creation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
