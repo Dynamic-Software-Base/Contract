@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a999c047-e061-4219-b86a-1664cac91e83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Response/School/Classes/GradeDefinitionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Response/School/Classes/GradeDefinitionResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Request/School/Classes/UpdateSchoolClassNameRequest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Request/Registration/Schemas/GetFormSchemaRquest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Request/Registration/Session/CreateBatchSessionsResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Request/School/Classes/CreateSchoolClassRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Request/School/Classes/UpdateSchoolClassNameRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Request/School/GetSchoolQuery.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Response/Files/UploadFileResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Response/School/Classes/GradeDefinitionResponse.cs" root0="FORCE_HIGHLIGHTING" />
@@ -105,7 +106,7 @@
       <workItem from="1774862527390" duration="1863000" />
       <workItem from="1774959478398" duration="8000" />
       <workItem from="1775043070895" duration="2052000" />
-      <workItem from="1775124848861" duration="1006000" />
+      <workItem from="1775124848861" duration="2375000" />
     </task>
     <task id="LOCAL-00001" summary="add file resut response dto">
       <option name="closed" value="true" />
@@ -219,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775125149007</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update naming for supported classroom response objects">
+      <option name="closed" value="true" />
+      <created>1775125906110</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1775125906110</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +251,8 @@
     <MESSAGE value="update schema fetch" />
     <MESSAGE value="add rgeistration session and batch school creation" />
     <MESSAGE value="adding SchoolSupportedGrade response object &#10;&#10;1.0.18 -&gt; 1.0.19" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding SchoolSupportedGrade response object &#10;&#10;1.0.18 -&gt; 1.0.19" />
+    <MESSAGE value="update naming for supported classroom response objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="update naming for supported classroom response objects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
