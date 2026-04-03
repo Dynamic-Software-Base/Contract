@@ -9,7 +9,7 @@ public record RegistrationSessionResponse(
     string AcademicYear,
     int Status,
     DateTime OpenDate,
-    DateTime CloseDate,
+    DateTime? CloseDate,
     int MaxSlots,
     int ReservedCount,
     int EnrolledCount,
