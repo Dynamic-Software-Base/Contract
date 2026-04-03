@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a999c047-e061-4219-b86a-1664cac91e83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Request/Registration/Session/UpdateRegistrationSessionPeriodRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Request/Registration/Session/UpdateRegistrationSessionQuotaRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Request/Registration/Session/UpdateRegistrationSessionStrategyRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Contract.InClass.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Contract.InClass.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contract.InClass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Contract.InClass.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Request/Registration/Session/UpdateRegistrationSessionPeriodRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Request/Registration/Session/UpdateRegistrationSessionPeriodRequest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +111,7 @@
       <workItem from="1774959478398" duration="8000" />
       <workItem from="1775043070895" duration="2052000" />
       <workItem from="1775124848861" duration="4103000" />
-      <workItem from="1775210264902" duration="2471000" />
+      <workItem from="1775210264902" duration="3057000" />
     </task>
     <task id="LOCAL-00001" summary="add file resut response dto">
       <option name="closed" value="true" />
@@ -268,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775211609413</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add session requests">
+      <option name="closed" value="true" />
+      <created>1775212846028</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1775212846028</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +312,8 @@
     <MESSAGE value="add CreateSchoolClassRequest" />
     <MESSAGE value="add RegistrationPhaseResponse RegistrationSessionResponse&#10;&#10;1.0.22 -&gt; 1.0.23" />
     <MESSAGE value="RegistrationSessionResponse:&#10;DateTime CloseDate -&gt; DateTime? CloseDate," />
-    <option name="LAST_COMMIT_MESSAGE" value="RegistrationSessionResponse:&#10;DateTime CloseDate -&gt; DateTime? CloseDate," />
+    <MESSAGE value="add session requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add session requests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
