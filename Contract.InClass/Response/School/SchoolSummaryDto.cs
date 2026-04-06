@@ -11,6 +11,7 @@ public sealed record SchoolSummaryDto(
     double? Latitude,
     double? Longitude,
     GradeLevelOfferingDto GradeLevelOffering,
-    List<SchoolPictureResponse> Pictures);
+    List<SchoolPictureResponse> Pictures,
+    List<OpenSessionSummaryDto> OpenSessions);
 
 public record SchoolPictureResponse(Guid StoredFileId,string Url,bool IsMain);
