@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a999c047-e061-4219-b86a-1664cac91e83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Response/Registration/EnrollmentSessionDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Response/Registration/FormSchemaResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Response/Registration/ApplicationPrefillResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Contract.InClass.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Contract.InClass.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contract.InClass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Contract.InClass.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="65" />
+    <option name="cachedIndexableFilesCount" value="70" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -46,6 +47,7 @@
     <setting file="file://$PROJECT_DIR$/Request/School/Classes/UpdateSchoolClassNameRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Request/School/GetSchoolQuery.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Response/Files/UploadFileResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Response/Registration/ApplicationPrefillResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Response/Registration/EnrollmentSessionDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Response/Registration/FormSchemaResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Response/Registration/Sessions/RegistrationPhaseResponse.cs" root0="FORCE_HIGHLIGHTING" />
@@ -115,7 +117,8 @@
       <workItem from="1775043070895" duration="2052000" />
       <workItem from="1775124848861" duration="4103000" />
       <workItem from="1775210264902" duration="5285000" />
-      <workItem from="1775467661962" duration="1456000" />
+      <workItem from="1775467661962" duration="2165000" />
+      <workItem from="1775550744324" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="add file resut response dto">
       <option name="closed" value="true" />
@@ -293,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775468319314</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="EnrollmentSessionsResponse&#10;1.0.28">
+      <option name="closed" value="true" />
+      <created>1775475886872</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1775475886872</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +346,8 @@
     <MESSAGE value="add session requests" />
     <MESSAGE value="UpdateRegistrationSessionPeriodRequest.cs &#10;CloseDate to CloseDate?" />
     <MESSAGE value="Update School Summary Dto to incluse Session Summary Dto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update School Summary Dto to incluse Session Summary Dto" />
+    <MESSAGE value="EnrollmentSessionsResponse&#10;1.0.28" />
+    <option name="LAST_COMMIT_MESSAGE" value="EnrollmentSessionsResponse&#10;1.0.28" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
