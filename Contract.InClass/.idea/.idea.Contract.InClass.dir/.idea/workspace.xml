@@ -118,7 +118,7 @@
       <workItem from="1775210264902" duration="5285000" />
       <workItem from="1775467661962" duration="2165000" />
       <workItem from="1775550744324" duration="2512000" />
-      <workItem from="1775723898848" duration="2364000" />
+      <workItem from="1775723898848" duration="2778000" />
     </task>
     <task id="LOCAL-00001" summary="add file resut response dto">
       <option name="closed" value="true" />
@@ -320,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775725407816</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="edit CreateBatchRegistrationSessionsRequest">
+      <option name="closed" value="true" />
+      <created>1775750050190</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1775750050190</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +373,8 @@
     <MESSAGE value="EnrollmentSessionsResponse&#10;1.0.28" />
     <MESSAGE value="ApplicationPrefillResponse" />
     <MESSAGE value="add SubmitApplicationResponse" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SubmitApplicationResponse" />
+    <MESSAGE value="edit CreateBatchRegistrationSessionsRequest" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit CreateBatchRegistrationSessionsRequest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
