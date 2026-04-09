@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a999c047-e061-4219-b86a-1664cac91e83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Response/Registration/SubmitApplicationResponse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Contract.InClass.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Contract.InClass.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +118,7 @@
       <workItem from="1775210264902" duration="5285000" />
       <workItem from="1775467661962" duration="2165000" />
       <workItem from="1775550744324" duration="2512000" />
-      <workItem from="1775723898848" duration="1116000" />
+      <workItem from="1775723898848" duration="2364000" />
     </task>
     <task id="LOCAL-00001" summary="add file resut response dto">
       <option name="closed" value="true" />
@@ -313,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775557085460</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add SubmitApplicationResponse">
+      <option name="closed" value="true" />
+      <created>1775725407816</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1775725407816</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +364,8 @@
     <MESSAGE value="Update School Summary Dto to incluse Session Summary Dto" />
     <MESSAGE value="EnrollmentSessionsResponse&#10;1.0.28" />
     <MESSAGE value="ApplicationPrefillResponse" />
-    <option name="LAST_COMMIT_MESSAGE" value="ApplicationPrefillResponse" />
+    <MESSAGE value="add SubmitApplicationResponse" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SubmitApplicationResponse" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
