@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a999c047-e061-4219-b86a-1664cac91e83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Request/Payment/CreatePaymentPlanRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Response/Payment/PaymentPlanResponse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Contract.InClass.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Contract.InClass.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contract.InClass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Contract.InClass.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="72" />
+    <option name="cachedIndexableFilesCount" value="76" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -36,6 +39,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Request/Payment/CreatePaymentPlanRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Request/Registration/Application/SubmitApplicationRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Request/Registration/Schemas/CustomizeFormSchemaRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Request/Registration/Schemas/GetFormSchemaRquest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/Request/School/Classes/UpdateSchoolClassNameRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Request/School/GetSchoolQuery.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Response/Files/UploadFileResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Response/Payment/PaymentPlanResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Response/Registration/ApplicationPrefillResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Response/Registration/EnrollmentSessionDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Response/Registration/FormSchemaResponse.cs" root0="FORCE_HIGHLIGHTING" />
@@ -118,7 +123,8 @@
       <workItem from="1775210264902" duration="5285000" />
       <workItem from="1775467661962" duration="2165000" />
       <workItem from="1775550744324" duration="2512000" />
-      <workItem from="1775723898848" duration="2778000" />
+      <workItem from="1775723898848" duration="3678000" />
+      <workItem from="1775805096610" duration="3430000" />
     </task>
     <task id="LOCAL-00001" summary="add file resut response dto">
       <option name="closed" value="true" />
@@ -328,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775750050190</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="RegistrationPhaseResponse">
+      <option name="closed" value="true" />
+      <created>1775750694784</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1775750694784</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +363,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add file resut response dto" />
     <MESSAGE value="verssion 1.0.9" />
     <MESSAGE value="make coordination null" />
     <MESSAGE value="add new release 1.0.11 and add GetSchoolQuery.cs" />
@@ -374,7 +387,8 @@
     <MESSAGE value="ApplicationPrefillResponse" />
     <MESSAGE value="add SubmitApplicationResponse" />
     <MESSAGE value="edit CreateBatchRegistrationSessionsRequest" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit CreateBatchRegistrationSessionsRequest" />
+    <MESSAGE value="RegistrationPhaseResponse" />
+    <option name="LAST_COMMIT_MESSAGE" value="RegistrationPhaseResponse" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
